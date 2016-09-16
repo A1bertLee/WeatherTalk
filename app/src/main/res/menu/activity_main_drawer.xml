@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/today"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="今日天气" />
+        <item
+            android:id="@+id/week"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="一周天气" />
+        <item
+            android:id="@+id/Talk"
+            android:icon="@drawable/ic_menu_send"
+            android:title="聊聊天气" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="设置" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="关于" />
+    </group>
+
+</menu>
